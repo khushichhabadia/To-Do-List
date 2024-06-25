@@ -1,0 +1,67 @@
+/* style.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 1vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#box, #priority {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color: #45a049; 
+}
+li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex; 
+    align-items: center; 
+ }
+li::before {
+    content: "\2022";
+    color: #0074d9;
+    font-size: 18px;
+    margin-right: 10px;
+}
