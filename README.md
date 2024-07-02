@@ -9,6 +9,7 @@ Interactive UI: Add, edit, and delete tasks with ease.
 Local Storage: Persist your tasks even after refreshing the page using local storage.
 
 Screenshots
+![Screenshot (18)](https://github.com/khushichhabadia/To-Do-List/assets/149806346/955d950d-6b0e-452c-981d-fec477128d4f)
 
 
 Copy code
